@@ -1,0 +1,22 @@
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: benign-fashion
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: adminroot
+      MYSQL_DATABASE: benign-fashion
+      MYSQL_USER: devuser
+      MYSQL_PASSWORD: devpass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+      
+    command:
+        --local-infile=1
+        --secure-file-priv=""
+
+volumes:
+  mysql-data:

@@ -1,0 +1,29 @@
+# node_modules
+# dist
+# .env
+# *.log
+# *.js
+# uploads
+
+# Node modules
+node_modules
+
+# Build output
+dist
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# # Uploads or user files
+# uploads/
+
+# IDE and editor folders
+.vscode/
+.DS_Store
+
+# Backup or temp files
+*.bak
+*.tmp

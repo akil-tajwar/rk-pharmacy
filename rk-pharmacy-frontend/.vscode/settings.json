@@ -1,0 +1,12 @@
+{
+  "editor.wordWrap": "on",
+  "files.autoSave": "afterDelay",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.cursorBlinking": "expand",
+  "editor.minimap.autohide": "none",
+  "editor.minimap.maxColumn": 100,
+  "editor.cursorSurroundingLines": 0,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.requireConfig": true,
+  "editor.mouseWheelZoom": true
+}
